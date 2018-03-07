@@ -1,0 +1,152 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is personal website of Dr. Yang">
+        <meta name="keywords" content="Calculus, Numerical Method, Turbulence, Transition, Shock, Boundary Layer">
+        <meta name="author" content="Yong Yang">
+
+        <title>Dr. Yang</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+
+        <!--== bootstrap ==-->
+        <link href="./css/lib/bootstrap.min.css" rel="stylesheet">
+
+        <!--== YTPlayer css ==-->
+        <link href="./css/lib/YTPlayer.css" rel="stylesheet">
+
+        <!--== style css ==-->
+        <link href="./css/style.css" rel="stylesheet">
+
+        <!--== jQuery ==-->
+        <script src="./js/lib/jquery-2.1.4.min.js"></script>
+
+        <!--== plugins js ==-->
+        <script src="./js/lib/plugins.min.js"></script>
+
+        <!--== typed js ==-->
+        <script src="./js/lib/typed.js"></script>
+
+        <!--== stellar js ==-->
+        <script src="./js/lib/jquery.stellar.min.js"></script>
+
+         <!--== YTPlayer js ==-->
+        <script src="./js/lib/jquery.mb.YTPlayer.min.js"></script>
+
+        <!--== counterup js ==-->
+        <script src="./js/lib/jquery.counterup.min.js"></script>
+
+         <!--== mixitup js ==-->
+        <script src="./js/lib/jquery.mixitup.js"></script>
+
+         <!--== main js ==-->
+        <script src="./js/main.js"></script>
+
+    </head>
+
+
+    <body>
+
+        <!--===== Preloader ====-->
+        <div class="preloader">
+            <div class="spinner">
+              <div class="rect1"></div>
+              <div class="rect2"></div>
+              <div class="rect3"></div>
+              <div class="rect4"></div>
+              <div class="rect5"></div>
+            </div>
+        </div>
+
+        <!--===== HEADER AREA =====-->
+        <header class="navbar custom-navbar navbar-fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-xs-12">
+                        <div class="logo">
+                           <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <a href="index.html">Dr.Yang</a> <!--== logo ==-->
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 col-sm-8 col-xs-12">
+                       <nav class="main-menu">
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav"> <!--== manin menu ==-->
+                                <li class="active"><a class="smoth-scroll theme-color" href="#home">Home</a></li>
+                                <li><a class="smoth-scroll" href="#about">About</a></li>
+                            </ul>
+                        </div>
+                        </nav>
+                    </div>
+                </div><!--/.row-->
+            </div><!--/.container-->
+        </header>
+        <!--===== END HEADER AREA ======-->
+
+        <!--======= WELCOME AREA =======-->
+        <div id="home" class="welcome-area" data-stellar-background-ratio="0.6" style="background-image: url(./img/video-bg.jpg);">
+            <a class="player" data-property="{videoURL:'W0LHTWG-UmQ',containment:'#home', showControls:false, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>
+           <div class="welcome-table">
+               <div class="welcome-cell">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                                <div class="welcome-text">
+                                   <h1>I'm <span class="element"></span></h1>
+                                    <p>I am an Assistant Professor of West A&M University. I teach Calculus and Numerical Analysis. My research interests are turbulence and shock/boundary layer interaction.</p>
+                                    <a href="https://apps.wtamu.edu/vitae/vitae.go?vid=243" target="_blank" class="btn welcome-btn">Curriculum Vitae</a>
+                                </div>
+                            </div>
+                       </div><!--/.row-->
+                    </div><!--/.container-->
+                </div>
+            </div>
+        </div>
+        <!--===== END WELCOME AREA =====-->
+
+        <!--===== ABOUT AREA =====-->
+        <div id="about" class="about-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                       <div class="about-text">
+                           <h4></h4>
+                            <p>I joined the School of Engineering, Computer Science, and Mathematics at West Texas A&M University in 2017. I received a B.S. in Aircraft Design and Engineering from Nanjing University of Aeronautics and Astronautics in 2011, an M.S. in Applied Mathematics from University of Texas at Arlington in 2016 and a Ph.D. in Applied Mathematics from University of Texas at Arlington in 2017.</p>
+                            <p>I teach Calculus and Numerical Analysis. My research interests are applications in numerical analysis, especially in computational fluid dynamics. My recent researches include direct numerical simulation for turbulent flow and large eddy simulation for shock/boundary-layer interaction.</p>
+                        </div>
+                    </div>
+                </div><!--/.row-->
+            </div><!--/.container-->
+        </div>
+        <!--===== END ABOUT AREA =====-->
+
+        <!--====== FOOTER AREA ======-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row wow zoomIn" data-wow-delay="0.4s">
+                    <div class="col-md-12 text-center">
+                        <p>&copy;2018 <strong>Yong Yang</strong>. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--====== END FOOTER AREA ======-->
+
+
+        <script>
+            $('.player').mb_YTPlayer();
+        </script>
+
+    </body>
+    </html>
