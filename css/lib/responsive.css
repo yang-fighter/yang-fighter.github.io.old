@@ -122,7 +122,7 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
         font-size: 26px;
     }
     .welcome-text p {
-        font-size: 14px;
+        font-size: 20px;
     }
     .about-text h2 {
         font-size: 28px;
@@ -135,7 +135,7 @@ NOTE: This is responsive stylesheet of the template, This file contains the styl
         padding: 0;
     }
     .about-text p {
-        font-size: 14px;
+        font-size: 20px;
     }
     .single-stat {
         margin-bottom: 40px;
