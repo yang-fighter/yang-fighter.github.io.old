@@ -13,6 +13,7 @@ NOTE: This is main stylesheet of website.
 3. HEADER AREA
 4. WELCOME AREA
 5. ABOUT AREA
+6. FOOTER SECTION
 
 ====================================================
             End table content
@@ -318,4 +319,16 @@ NOTE: This is main stylesheet of website.
      line-height: 28px;
      font-weight: 300;
  }
+ /*================================================
+            6 FOOTER SECTION
+==================================================*/
 
+ .footer {
+     background-color: #333;
+     padding: 60px 0;
+ }
+ .footer p {
+     font-size: 16px;
+     color: #fff;
+     margin: 0px;
+ }
