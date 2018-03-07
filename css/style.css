@@ -297,6 +297,7 @@ NOTE: This is main stylesheet of website.
 .btn.welcome-btn:hover{
     border: 2px solid #fff;
     color: #fff;
+    background: transparent;
 }
 
  /*================================================
@@ -317,3 +318,4 @@ NOTE: This is main stylesheet of website.
      line-height: 28px;
      font-weight: 300;
  }
+
