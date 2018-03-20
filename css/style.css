@@ -332,3 +332,33 @@ NOTE: This is main stylesheet of website.
      color: #fff;
      margin: 0px;
  }
+
+.social-link {
+    list-style: outside none none;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.social-link li {
+    display: inline-block;
+}
+.social-link li a {
+    border-radius: 50%;
+    color: #222;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+    text-align: center;
+    width: 35px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    height: 35px;
+    background: #fff;
+    line-height: 35px;
+    border: 2px solid transparent;
+}
+.social-link li a:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
